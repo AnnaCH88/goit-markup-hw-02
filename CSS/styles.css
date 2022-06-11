@@ -18,8 +18,8 @@
 body {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
-
     font-family: Roboto, sens-serif;
+    letter-spacing: 0.03em;
 }
 
 ul {
@@ -34,31 +34,25 @@ ul {
     color: var(--accent-color);
     font-family: Raleway, sens-serif;
     text-decoration: none;
-    font-style: normal;
-    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;    
-    letter-spacing: 0.03em;
+    line-height: 1.2;    
+    
 }
 .studio {
     color: #212121;
     font-family: Raleway, sens-serif;
     text-decoration: none;
-    font-style: normal;
-    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    line-height: 1.2;
+    
 }
 
 /* site nav */
 .site-nav .link {
     color: var(--secondary-text-color);
-    font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 1.14;
+    
 
 }
 .site-nav .link:hover,
@@ -68,20 +62,16 @@ ul {
 
 .site-nav .link.current {
     color: var(--accent-color);
-    font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 1.14;
+    
 }
 
 .contacts .link {
     color: var(--main-text-color);
-    font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 1.14;
+    
 
 }
 .contacts .link:hover,
@@ -95,26 +85,28 @@ ul {
 }
 .hero-title {
     color: #ffffff;
-    font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;         
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;         
+    text-align: center;
+    text-transform: uppercase;
 }
 .hero-button {
+    cursor: pointer;
+    border: none;
+
     color: #ffffff;
     background-color: var(--accent-color);
     font-family: Roboto, sens-serif;
+    font-size: 16px;
     font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 30px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
+    font-weight: 700;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -123,68 +115,124 @@ ul {
 /* Section */
 .section-title {
     color: var(--secondary-text-color);
-    font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    
 }
 
 /* Features */
 .features-list .title
 {
     color: var(--secondary-text-color);
-    font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .features-text {
     color: var(--main-text-color);
-    font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;          
-        letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.7;          
+    
 }
 /* Team */
 .team-list .title {
     color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .position {
     color: var(--main-text-color);
-    font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;      
-        letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.18;      
+    
 }
 
 /* Portfolio */
 .work-list .title {
     color: var(--secondary-text-color);
-    font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
-        letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.18;
+    
 }
 .work-list-item {
     color: var(--main-text-color);
-    font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;      
-        letter-spacing: 0.03em;
-}
-/* Footter */
-.address {
+    font-size: 16px;
+    line-height: 1.18;      
     
-   
+}
+.filter-button {
+    cursor: pointer;
+    border: none;
 
+    background-color: #F5F4FA;
+    color: #212121;
+    font-family: Roboto, sens-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;       
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+
+
+
+
+/* Footter */
+.footer {
+    background-color: var(--footer-bg-color);
+}
+
+.logo-footer {
+    color: var(--accent-color);
+    font-family: Raleway, sens-serif;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.2;
+    
+}
+
+.studio-footer {
+    color: #FFFFFF;
+    font-family: Raleway, sens-serif;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.2;
+    
+}
+.address-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;          
+    letter-spacing: 0.03em;
+}
+.mail-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.tel-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
 }
